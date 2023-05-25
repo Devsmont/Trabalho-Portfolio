@@ -28,8 +28,7 @@ h1 {
   -webkit-transition-property: all; 
   -webkit-transition-duration: 0.3s; 
   -webkit-transition-timing-function: ease; 
-}
-
+}AQQQQQ 2WWWWWW                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 
 h1:hover {
   transform: scale(1.1); 
@@ -39,7 +38,6 @@ a {
   text-decoration: none;
   color: var(--cor-s);
 }
-
 
 h2 {
     font-size: 5em;
@@ -56,7 +54,6 @@ h2 {
   -webkit-transition-timing-function: ease; 
 }
   
-
 h2:hover {
   transform: scale(1.5); 
 }
@@ -68,89 +65,86 @@ h2:hover {
     position: fixed;
     padding: 30px 10px 20px 10px;
     width: 100%;
-
     background:var(--cor-p);
     color:var(--cor-f);
 }
 
-
 .hover-1 {
-    --c: #903749; /* the color */
-    --s: .15em;
+  --c: #903749; /* the color */
+  --s: .15em;
     
-    line-height:1.1em;
-    padding-bottom: calc(2.1*var(--s));
-    background: 
-      conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
-        left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
-      conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
-        left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
-    -webkit-mask:
-      linear-gradient(#000 0 0) content-box,
-      linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
-    transition: .5s;
+  line-height:1.1em;
+  padding-bottom: calc(2.1*var(--s));
+  background: 
+    conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
+    left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+    conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
+    left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
+  -webkit-mask:
+    inear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+  transition: .5s;
   }
-  .hover-1:hover {
-    --_p: 100%;
-    color: var(--c);
-  }
-  
 
+.hover-1:hover {
+  --_p: 100%;
+  color: var(--c);
+}
+  
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 .t {
-    color:var(--cor-s);
-    font-size: 25px;
-    font-weight: 500;
+  color:var(--cor-s);
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .t:hover {
-    color:var(--cor-t);
+  color:var(--cor-t);
 }
 
 .container-menu, .cont-menu {
-    position: relative;
-    display: inline-block;
-    list-style-type: none;
-    display: flex;
-    gap:30px;
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  display: flex;
+  gap:30px;
   }
   
 .container-list {
-    display: none;
-    position: absolute;
-    background-color:var(--cor-p);
-    margin-top: 33px;
-    min-width: 160px;
-    padding: 12px 0 16px 10px;
-    z-index: 1;
-    border-radius: 5px;
+  display: none;
+  position: absolute;
+  background-color:var(--cor-p);
+  margin-top: 33px;
+  min-width: 160px;
+  padding: 12px 0 16px 10px;
+  z-index: 1;
+  border-radius: 5px;
   }
   
 .cont-menu:hover .container-list {
-    display: block;
+  display: block;
   }
 
 .rede {
-    display:flex;
-    flex-direction: column;
-    margin-top: 13%;
-    margin-left: 10px;
+  display:flex;
+  flex-direction: column;
+  margin-top: 13%;
+  margin-left: 10px;
 }
 
 .banner {
-    margin-top: 13%;
-    display: flex;
+  margin-top: 13%;
+  display: flex;
 }
 
 .banner-main {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .banner-proj {
@@ -161,7 +155,7 @@ h2:hover {
 }
 
 .banner-sobre {
-  margin-top: 14%;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   margin-left: 20%;
@@ -181,7 +175,6 @@ h2:hover {
     padding: 20px;
     color: var(--cor-s);
     text-decoration: none;
-
     justify-content: center;
     transition: 300ms;
     margin:2px;
@@ -196,7 +189,6 @@ h2:hover {
 
 .banner-sub {
     font-size: 1.5em;
-    
 }
 
 .center {
@@ -222,9 +214,7 @@ h2:hover {
 .endireita {
     display: flex;
     justify-content:space-between;
-    
 }
-
 
 .endi {
   display: flex;
@@ -246,7 +236,6 @@ h2:hover {
   justify-content: space-around;
 }
 
-
 .reset {
   padding: 0;
   margin: 0;
@@ -255,7 +244,6 @@ h2:hover {
 .img {
     width: auto;
     display:flex; 
-    
     cursor: pointer; 
     -webkit-transition-property: all; 
     -webkit-transition-duration: 0.3s; 
@@ -283,7 +271,6 @@ h2:hover {
 }
 
 .custom-btn {
-    
     color: var(--cor-s);
     border-radius: 20px;
     padding:  20px 25px;
@@ -294,19 +281,20 @@ h2:hover {
     transition: all 0.3s ease;
     position: relative;
     text-decoration: none;
-  }
+}
 
-  .btn-14:hover {
+.btn-14:hover {
     background-color: var(--cor-s);
     color: var(--cor-p);
-  }
+}
 
-  .btn-15 {
+.btn-15 {
     background: var(--cor-p);
     border: none;
     z-index: 1;
-  }
-  .btn-15:after {
+}
+
+.btn-15:after {
     position: absolute;
     content: "";
     width: 0;
@@ -317,21 +305,19 @@ h2:hover {
     background-color: var(--cor-s);
     border-radius: 20px;
     transition: all 0.3s ease;
-  }
-  .btn-15:hover {
+}
+
+.btn-15:hover {
     color:var(--cor-p);
-  }
-  .btn-15:hover:after {
+}
+  
+.btn-15:hover:after {
     left: 0;
     width: 100%;
-  }
-  .btn-15:active {
-    top: 2px;
-  }
+}
   
-
-
-.foto-borda {           
+.btn-15:active {
+    top: 2px;
 }
 
 .projetos {
@@ -387,7 +373,6 @@ h2:hover {
   display: flex;
   padding: 10px;
   gap: 20px;
-
 }
 
 .Tabela-Text {
